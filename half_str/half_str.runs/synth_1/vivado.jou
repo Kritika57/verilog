@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Feb 27 11:59:14 2025
+# Process ID: 12912
+# Current directory: C:/vivado code project/half_str/half_str.runs/synth_1
+# Command line: vivado.exe -log half_str.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source half_str.tcl
+# Log file: C:/vivado code project/half_str/half_str.runs/synth_1/half_str.vds
+# Journal file: C:/vivado code project/half_str/half_str.runs/synth_1\vivado.jou
+# Running On        :Kritika
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26100
+# Processor Detail  :11th Gen Intel(R) Core(TM) i3-1115G4 @ 3.00GHz
+# CPU Frequency     :2995 MHz
+# CPU Physical cores:2
+# CPU Logical cores :4
+# Host memory       :8269 MB
+# Swap memory       :8343 MB
+# Total Virtual     :16612 MB
+# Available Virtual :1128 MB
+#-----------------------------------------------------------
+source half_str.tcl -notrace

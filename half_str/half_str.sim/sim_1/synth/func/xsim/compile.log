@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado code project/half_str/half_str.sim/sim_1/synth/func/xsim/half_str_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_str
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/vivado code project/half_str/half_str.srcs/sim_1/new/half_str_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module half_str_tb

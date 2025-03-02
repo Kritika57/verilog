@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"half_str_tb_func_synth.v" \
+"../../../../../half_str.srcs/sim_1/new/half_str_tb.v" \
+
+# Do not sort compile order
+nosort
