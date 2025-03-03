@@ -1,4 +1,7 @@
 
 
-Hi this is my irst verilog project# verilog
+Hi this is my first verilog project# verilog
  
+NAND gate
+NOR  gate
+NOT gate
