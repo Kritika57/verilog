@@ -1,0 +1,136 @@
+
+<!-- saved from url=(0035)https://hdlbits.01xz.net/runsim.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>vector5: Simulation - HDLBits</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="./runsim.css">
+	<link href="./css(1)" rel="stylesheet">
+
+	<script type="text/javascript" src="./jquery-1.11.3.min.js.download"></script>
+	</head>
+	<body>
+	<div id="container"><h2>vector5 — Compile and simulate</h2>
+Running Quartus synthesis.
+<a href="https://hdlbits.01xz.net/runsim.php#" onclick="$(&#39;#qm&#39;).slideToggle(&#39;fast&#39;); return false;">Show Quartus messages...</a><br><div id="qm" class="msgbox" style="display: none;"><pre><span class="msg_none">Info: *******************************************************************</span>
+<span class="msg_none">Info: Running Quartus Prime Shell</span>
+<span class="msg_none">    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition</span>
+<span class="msg_none">    Info: Copyright (C) 2020  Intel Corporation. All rights reserved.</span>
+<span class="msg_none">    Info: Your use of Intel Corporation's design tools, logic functions </span>
+<span class="msg_none">    Info: and other software and tools, and any partner logic </span>
+<span class="msg_none">    Info: functions, and any output files from any of the foregoing </span>
+<span class="msg_none">    Info: (including device programming or simulation files), and any </span>
+<span class="msg_none">    Info: associated documentation or information are expressly subject </span>
+<span class="msg_none">    Info: to the terms and conditions of the Intel Program License </span>
+<span class="msg_none">    Info: Subscription Agreement, the Intel Quartus Prime License Agreement,</span>
+<span class="msg_none">    Info: the Intel FPGA IP License Agreement, or other applicable license</span>
+<span class="msg_none">    Info: agreement, including, without limitation, that your use is for</span>
+<span class="msg_none">    Info: the sole purpose of programming logic devices manufactured by</span>
+<span class="msg_none">    Info: Intel and sold by Intel or its authorized distributors.  Please</span>
+<span class="msg_none">    Info: refer to the applicable agreement for further details, at</span>
+<span class="msg_none">    Info: https://fpgasoftware.intel.com/eula.</span>
+<span class="msg_none">    Info: Processing started: Mon Mar  3 01:58:31 2025</span>
+<span class="msg_none">Info: Command: quartus_sh -t /home/h/hdlbits/compile.tcl</span>
+<span class="msg_none">Info: *******************************************************************</span>
+<span class="msg_none">Info: Running Quartus Prime Analysis &amp; Synthesis</span>
+<span class="msg_none">    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition</span>
+<span class="msg_none">    Info: Processing started: Mon Mar  3 01:58:32 2025</span>
+<span class="msg_none">Info: Command: quartus_map --read_settings_files=on --write_settings_files=off top_module -c top_module</span>
+<span class="msg_none">Warning (12473): User specified to use only one processors but 4 processors were detected which could be used to decrease run time.</span>
+<span class="msg_none">Info (12021): Found 1 design units, including 1 entities, in source file top_module_wrap.v</span>
+<span class="msg_none">    Info (12023): Found entity 1: top_module File: /home/h/work/hdlbits.2487143/top_module.v Line: 1</span>
+<span class="msg_none">Info (12021): Found 0 design units, including 0 entities, in source file tb_modules.sv</span>
+<span class="msg_none">Info (12127): Elaborating entity "top_module" for the top level hierarchy</span>
+<span class="msg_warn">Warning (13024): Output pins are stuck at VCC or GND</span>
+<span class="msg_warn">    Warning (13410): Pin "out[0]" is stuck at VCC File: /home/h/work/hdlbits.2487143/top_module.v Line: 3</span>
+<span class="msg_warn">    Warning (13410): Pin "out[6]" is stuck at VCC File: /home/h/work/hdlbits.2487143/top_module.v Line: 3</span>
+<span class="msg_warn">    Warning (13410): Pin "out[12]" is stuck at VCC File: /home/h/work/hdlbits.2487143/top_module.v Line: 3</span>
+<span class="msg_warn">    Warning (13410): Pin "out[18]" is stuck at VCC File: /home/h/work/hdlbits.2487143/top_module.v Line: 3</span>
+<span class="msg_warn">    Warning (13410): Pin "out[24]" is stuck at VCC File: /home/h/work/hdlbits.2487143/top_module.v Line: 3</span>
+<span class="msg_none">Info (286030): Timing-Driven Synthesis is running</span>
+<span class="msg_none">Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"</span>
+<span class="msg_none">    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL</span>
+<span class="msg_none">Info (21057): Implemented 40 device resources after synthesis - the final resource count might be different</span>
+<span class="msg_none">    Info (21058): Implemented 5 input pins</span>
+<span class="msg_none">    Info (21059): Implemented 25 output pins</span>
+<span class="msg_none">    Info (21061): Implemented 10 logic cells</span>
+<span class="msg_none">Info: Quartus Prime Analysis &amp; Synthesis was successful. 0 errors, 7 warnings</span>
+<span class="msg_none">    Info: Peak virtual memory: 404 megabytes</span>
+<span class="msg_none">    Info: Processing ended: Mon Mar  3 01:58:33 2025</span>
+<span class="msg_none">    Info: Elapsed time: 00:00:01</span>
+<span class="msg_none">    Info: Total CPU time (on all processors): 00:00:01</span>
+<span class="msg_none">Info: *******************************************************************</span>
+<span class="msg_none">Info: Running Quartus Prime EDA Netlist Writer</span>
+<span class="msg_none">    Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition</span>
+<span class="msg_none">    Info: Processing started: Mon Mar  3 01:58:34 2025</span>
+<span class="msg_none">Info: Command: quartus_eda --read_settings_files=on --write_settings_files=off top_module -c top_module --write_settings_files=off --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=.</span>
+<span class="msg_none">Info (119006): Selected device 5CSEMA5F31C6 for design "top_module"</span>
+<span class="msg_none">Info (204019): Generated file top_module.vo in folder "/home/h/work/hdlbits.2487143/" for EDA simulation tool</span>
+<span class="msg_none">Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 0 warnings</span>
+<span class="msg_none">    Info: Peak virtual memory: 672 megabytes</span>
+<span class="msg_none">    Info: Processing ended: Mon Mar  3 01:58:34 2025</span>
+<span class="msg_none">    Info: Elapsed time: 00:00:00</span>
+<span class="msg_none">    Info: Total CPU time (on all processors): 00:00:00</span>
+<span class="msg_none">Info (23030): Evaluation of Tcl script /home/h/hdlbits/compile.tcl was successful</span>
+<span class="msg_none">Info: Quartus Prime Shell was successful. 0 errors, 7 warnings</span>
+<span class="msg_none">    Info: Peak virtual memory: 484 megabytes</span>
+<span class="msg_none">    Info: Processing ended: Mon Mar  3 01:58:35 2025</span>
+<span class="msg_none">    Info: Elapsed time: 00:00:04</span>
+<span class="msg_none">    Info: Total CPU time (on all processors): 00:00:03</span>
+</pre></div>
+<script type="text/javascript">$('#qm').slideUp('fast');</script>
+Running ModelSim simulation.
+<a href="https://hdlbits.01xz.net/runsim.php#" onclick="$(&#39;#mm&#39;).slideToggle(&#39;fast&#39;); return false;">Show Modelsim messages...</a><br><div id="mm" class="msgbox" style="display: none;"><pre><span class="msg_none">Reading pref.tcl</span>
+<span class="msg_none"></span>
+<span class="msg_none"># 2020.1</span>
+<span class="msg_none"></span>
+<span class="msg_none"># do /home/h/hdlbits/runsim.do</span>
+<span class="msg_none"># Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020</span>
+<span class="msg_none"># Start time: 01:58:36 on Mar 03,2025</span>
+<span class="msg_none"># vlog -sv tb.sv "+incdir+../../hdlbits" </span>
+<span class="msg_none"># -- Compiling module reference_module</span>
+<span class="msg_none"># -- Compiling module stimulus_gen</span>
+<span class="msg_none"># -- Compiling module tb</span>
+<span class="msg_none"># -- Compiling module wavedrom_mod</span>
+<span class="msg_none"># </span>
+<span class="msg_none"># Top level modules:</span>
+<span class="msg_none"># 	tb</span>
+<span class="msg_none"># End time: 01:58:36 on Mar 03,2025, Elapsed time: 0:00:00</span>
+<span class="msg_none"># Errors: 0, Warnings: 0</span>
+<span class="msg_none"># Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020</span>
+<span class="msg_none"># Start time: 01:58:36 on Mar 03,2025</span>
+<span class="msg_none"># vlog top_module.vo </span>
+<span class="msg_none"># -- Compiling module top_module</span>
+<span class="msg_none"># </span>
+<span class="msg_none"># Top level modules:</span>
+<span class="msg_none"># 	top_module</span>
+<span class="msg_none"># End time: 01:58:36 on Mar 03,2025, Elapsed time: 0:00:00</span>
+<span class="msg_none"># Errors: 0, Warnings: 0</span>
+<span class="msg_none"># vsim -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.tb -voptargs=""+acc"" </span>
+<span class="msg_none"># Start time: 01:58:36 on Mar 03,2025</span>
+<span class="msg_none"># Loading sv_std.std</span>
+<span class="msg_none"># Loading work.tb</span>
+<span class="msg_none"># Loading work.stimulus_gen</span>
+<span class="msg_none"># Loading work.reference_module</span>
+<span class="msg_none"># Loading work.top_module</span>
+<span class="msg_none"># Loading cyclonev_ver.cyclonev_io_obuf</span>
+<span class="msg_none"># Loading cyclonev_ver.cyclonev_io_ibuf</span>
+<span class="msg_none"># Loading cyclonev_ver.cyclonev_lcell_comb</span>
+<span class="msg_none"># Loading work.wavedrom_mod</span>
+<span class="msg_none"># ** Note: $finish    : tb.sv(26)</span>
+<span class="msg_none">#    Time: 495 ps  Iteration: 1  Instance: /tb/stim1</span>
+<span class="msg_hint"># Hint: Output 'out' has no mismatches.</span>
+<span class="msg_hint"># Hint: Total mismatched samples is 0 out of 98 samples</span>
+<span class="msg_none"># </span>
+<span class="msg_none"># Simulation finished at 495 ps</span>
+<span class="msg_none"># Mismatches: 0 in 98 samples</span>
+<span class="msg_none"># End time: 01:58:36 on Mar 03,2025, Elapsed time: 0:00:00</span>
+<span class="msg_none"># Errors: 0, Warnings: 0</span>
+</pre></div>
+<script type="text/javascript">$('#mm').slideUp('fast');</script>
+<h2>Status: Success!</h2>
+<p class="status_expl">You have solved 19 problems. <a href="https://hdlbits.01xz.net/wiki/Special:VlgStats/Me" target="_blank">See my progress...</a></p><h3>Warning messages that may be important</h3>
+<h4 style="margin-left: 0.5em; margin-bottom: 1ex;">Quartus messages <a href="https://hdlbits.01xz.net/runsim.php#" onclick="$(&#39;#qm&#39;).slideToggle(&#39;fast&#39;); return false;">(Show all)</a></h4><pre class="warn_msgs"><span class="msg_warn">Warning (13024): Output pins are stuck at VCC or GND</span>
+</pre><div class="warn_expl">This warning says that an output pin never changes (is "stuck"). This can sometimes indicate a bug if the output pin shouldn't be a constant. If this pin is not supposed to be constant, check for bugs that cause the value being assigned to never change (e.g., <tt>assign a = x &amp; ~x;</tt>)</div></div>
+
+
+
+</body></html>
